@@ -1,0 +1,22 @@
+<div class="hazelchat-chats">
+    <ul class="hazelchat-counts">
+        {% for id, count in counts %}
+            <li>
+                <span class="hazelchat-count">{{ count|number(0) }}</span>
+                <span class="hazelchat-label">{{ ('Hazelchat_Count_' ~ id)|translate }}</span>
+            </li>
+        {% endfor %}
+    </ul>
+    {% if not hasEvents %}
+        <p class="hazelchat-note">{{ 'Hazelchat_NoEvents'|translate }}</p>
+    {% endif %}
+    {% if goal %}
+        <p class="hazelchat-note">{{ 'Hazelchat_GoalExists'|translate(goal.name) }}</p>
+    {% elseif canAddGoal %}
+        <form method="post" action="index.php?module=Hazelchat&amp;action=addGoal&amp;idSite={{ idSite|e('url') }}&amp;period={{ period|e('url') }}&amp;date={{ date|e('url') }}">
+            <input type="hidden" name="nonce" value="{{ nonce }}">
+            <button type="submit" class="btn">{{ 'Hazelchat_AddGoal'|translate }}</button>
+            <span class="hazelchat-note">{{ 'Hazelchat_AddGoalHelp'|translate }}</span>
+        </form>
+    {% endif %}
+</div>

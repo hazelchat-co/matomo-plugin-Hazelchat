@@ -1,0 +1,28 @@
+{
+    "name": "Hazelchat",
+    "version": "0.1.0",
+    "description": "Add the Hazelchat AI chat agent with Tag Manager and see chats and enquiries in Matomo, with a ready goal.",
+    "keywords": ["chat", "ai", "agent", "chatbot", "enquiries", "goals", "events", "tagmanager", "widget"],
+    "license": "GPL-3.0+",
+    "homepage": "https://hazelchat.co/integrations/matomo/",
+    "category": "integration",
+    "authors": [
+        {
+            "name": "Hazelchat",
+            "email": "hello@hazelchat.co",
+            "homepage": "https://hazelchat.co/"
+        }
+    ],
+    "support": {
+        "email": "hello@hazelchat.co",
+        "docs": "https://hazelchat.co/integrations/matomo/",
+        "issues": "https://github.com/hazelchat-co/matomo-plugin-Hazelchat/issues",
+        "source": "https://github.com/hazelchat-co/matomo-plugin-Hazelchat"
+    },
+    "require": {
+        "matomo": ">=5.0.0,<6.0.0-b1",
+        "php": ">=7.2.5"
+    },
+    "onpremise-compatible": true,
+    "wordpress-compatible": true
+}

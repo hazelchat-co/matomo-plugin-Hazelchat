@@ -1,0 +1,26 @@
+{
+    "Hazelchat": {
+        "Hazelchat": "Hazelchat",
+        "PluginDescription": "Fügen Sie den KI-Chat-Agenten Hazelchat per Tag Manager hinzu und sehen Sie Chats und Anfragen in Matomo, mit fertigem Ziel.",
+        "TagName": "Hazelchat Chat",
+        "TagDescription": "Fügt Ihren KI-Chat-Agenten von Hazelchat zu Ihrer Website hinzu.",
+        "TagHelp": "Nutzen Sie den Trigger „Pageview“. Der Chat erscheint, sobald Ihr Agent in Hazelchat für diese Website live ist.",
+        "TagKeyTitle": "Öffentlicher Widget-Schlüssel",
+        "TagKeyDescription": "Öffnen Sie in Hazelchat Website › Auf Ihrer Website installieren und kopieren Sie den Schlüssel. Sie können auch den ganzen Installationscode einfügen.",
+        "TagKeyPlaceholder": "64 Zeichen, zum Beispiel 3f9a…",
+        "TagKeyInvalid": "Das ist kein Hazelchat-Widget-Schlüssel. Kopieren Sie ihn erneut unter Website › Auf Ihrer Website installieren in Hazelchat.",
+        "TagConsentTitle": "Auf mein Cookie-Banner warten",
+        "TagConsentDescription": "Nur ankreuzen, wenn Ihr Cookie-Banner Hazelchat selbst über die Einwilligung informiert. Die meisten unterstützten Banner funktionieren ohne.",
+        "PageHelp": "Was Besucher im Hazelchat-Chat auf Ihrer Website getan haben: geöffnete Chats, begonnene Chats und hinterlassene Anfragen. Der Chat fügt sie als Ereignisse (Kategorie Hazelchat) hinzu, wenn Matomo den Besuch erfasst. Chat-Texte und persönliche Angaben werden nicht an Matomo gesendet.",
+        "WidgetName": "Hazelchat-Chats",
+        "Count_opened": "Geöffnete Chats",
+        "Count_started": "Begonnene Chats",
+        "Count_enquiry": "Anfragen",
+        "NoEvents": "In diesem Zeitraum noch keine Chat-Ereignisse. Sie erscheinen, sobald Besucher den Hazelchat-Chat auf dieser Website nutzen.",
+        "AddGoal": "Anfragen als Ziel zählen",
+        "AddGoalHelp": "Sehen Sie, welche Seiten und Kampagnen Anfragen bringen.",
+        "GoalExists": "Anfragen zählen als Ziel „%s“.",
+        "GoalName": "Hazelchat-Anfrage",
+        "GoalDescription": "Ein Besucher hat im Hazelchat-Chat eine Anfrage hinterlassen."
+    }
+}

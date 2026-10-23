@@ -1,0 +1,26 @@
+{
+    "Hazelchat": {
+        "Hazelchat": "Hazelchat",
+        "PluginDescription": "Add the Hazelchat AI chat agent with Tag Manager and see chats and enquiries in Matomo, with a ready goal.",
+        "TagName": "Hazelchat Chat",
+        "TagDescription": "Adds your Hazelchat AI chat agent to your website.",
+        "TagHelp": "Use the Pageview trigger. The chat appears once your agent is live for this website in Hazelchat.",
+        "TagKeyTitle": "Public widget key",
+        "TagKeyDescription": "In Hazelchat, open Website › Install on your website and copy the key. You can also paste the whole installation code.",
+        "TagKeyPlaceholder": "64 characters, for example 3f9a…",
+        "TagKeyInvalid": "That is not a Hazelchat widget key. Copy it again from Website › Install on your website in Hazelchat.",
+        "TagConsentTitle": "Wait for my cookie banner",
+        "TagConsentDescription": "Only tick this if your cookie banner tells Hazelchat about consent itself. Most supported banners work without it.",
+        "PageHelp": "What visitors did in the Hazelchat chat on your website: chats opened, chats started and enquiries left. The chat adds these as events (category Hazelchat) when Matomo tracks the visit. No chat text or personal details are sent to Matomo.",
+        "WidgetName": "Hazelchat chats",
+        "Count_opened": "Chats opened",
+        "Count_started": "Chats started",
+        "Count_enquiry": "Enquiries",
+        "NoEvents": "No chat events in this period yet. They appear once visitors use the Hazelchat chat on this website.",
+        "AddGoal": "Count enquiries as a goal",
+        "AddGoalHelp": "See which pages and campaigns bring enquiries.",
+        "GoalExists": "Enquiries count as the goal \"%s\".",
+        "GoalName": "Hazelchat enquiry",
+        "GoalDescription": "A visitor left an enquiry in the Hazelchat chat."
+    }
+}
